@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dubboconsumer:Web exploded">
+    <output-path>$PROJECT_DIR$/dubboconsumer/target/dubboconsumer</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="dubboconsumer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dubboconsumer" />
+          <element id="module-output" name="dubbointerface" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.18.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.18.RELEASE" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:2.5.3" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.15.0-GA" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:3.2.5.Final" />
+          <element id="library" level="project" name="Maven: com.101tec:zkclient:0.10" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:3.4.8" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: jline:jline:0.9.94" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.7.0.Final" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.10" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.18.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.18.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
