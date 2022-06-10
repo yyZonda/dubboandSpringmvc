@@ -59,7 +59,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>dubbo</artifactId>
-      <version>2.5.3</version>
+      <version>2.6.12</version>
         <!--因为dubbo默认为2.5的spring，版本太低，不支持spring注解，所以这里一定要排除掉本身的spring才能和高版本的spring集成。
         至关重要！！搞死我了！！！！！！！！！！！！！！！！！！！！   -->
       <exclusions>
